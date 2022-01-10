@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "793478666267",
+    "project_id": "fitboard-583fa",
+    "storage_bucket": "fitboard-583fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793478666267:android:2146c0a8b195497ef200be",
+        "android_client_info": {
+          "package_name": "by.ziziko.fitboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793478666267-ea58k5uvgfod049to5l4heahjimm0bs2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "by.ziziko.fitboard",
+            "certificate_hash": "88afd4334fff0bbd4bddbd1163ee96ad7fa676ae"
+          }
+        },
+        {
+          "client_id": "793478666267-h0c92a96ckjviri3lnglh4599sb9bhlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Lmk0-ccnNBeT400vIUI2x1cUqlxfyRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793478666267-h0c92a96ckjviri3lnglh4599sb9bhlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

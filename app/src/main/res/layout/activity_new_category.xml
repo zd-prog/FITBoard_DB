@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:fontFamily="sans-serif-light"
+        android:hint="Категория"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:inputType="textAutoComplete"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#910101"
+        android:text="Сохранить"
+        android:layout_margin="@dimen/fab_margin"
+        android:textColor="@color/white" />
+
+</LinearLayout>

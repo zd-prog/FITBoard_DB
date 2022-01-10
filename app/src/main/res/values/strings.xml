@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FITBoard</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FIT Board</string>
+    <string name="nav_header_subtitle">Приложение для новостей о факультете</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_news">Новости</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">что-то</string>
+    <string name="categories">Категории</string>
+</resources>

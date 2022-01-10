@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/new_post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:fontFamily="sans-serif-light"
+        android:hint="Заголовок"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:inputType="textAutoComplete"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/post_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:fontFamily="sans-serif-light"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:inputType="textAutoComplete"
+        android:minHeight="48dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:id="@+id/post_fulltext"
+        android:fontFamily="sans-serif-light"
+        android:hint="Текст новости"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        android:textColor="@color/black"
+        android:shadowColor="@color/black"
+        android:minHeight="198dp"/>
+
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_menu_camera"
+        android:background="@color/white"
+        android:layout_margin="@dimen/fab_margin"
+        />
+
+    <Button
+        android:id="@+id/button_save_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#910101"
+        android:text="Сохранить"
+        android:layout_margin="@dimen/fab_margin"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

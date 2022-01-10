@@ -1,0 +1,6 @@
+<TextView android:id="@+id/category"
+    style="@style/category"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#74FA4D4D"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
